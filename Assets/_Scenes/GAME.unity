@@ -2436,9 +2436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanciaDoRaio: 5
-  alturaDoRaio: 0.8
-  interactKey: 102
-  promptUI: {fileID: 0}
+  LugarDoRaio: 0.8
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2720,9 +2718,7 @@ MonoBehaviour:
   _EnableMovement: 1
   _MoveSpeed: 5
   _RotationSpeed: 200
-  crouchHeight: 1
-  crouchCameraOffset: -0.5
-  crouchTransitionSpeed: 8
+  _EnableCombat: 1
   _EnableJump: 1
   _JumpForce: 5
   _MaxJumps: 1
@@ -5383,7 +5379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4399953216590970343, guid: c15c30257147d084ea5a886ebca2ba31, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.155813
+      value: 20.95
       objectReference: {fileID: 0}
     - target: {fileID: 4399953216590970343, guid: c15c30257147d084ea5a886ebca2ba31, type: 3}
       propertyPath: m_LocalPosition.y
